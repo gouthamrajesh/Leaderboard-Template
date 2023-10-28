@@ -1,0 +1,83 @@
+/* Imported Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Titillium+Web&display=swap');
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+    background-color: #FFA500;
+    color: #0063B1;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    background-color: #0063B1;
+    color: #FFA500;
+    font-weight: 700;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+section.leaderboard {
+    background-color: #0063B1;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    padding: 10px;
+    font-size: 18px;
+    color: #FFA500;
+    border: 1px solid #FFA500;
+    border-radius: 0px;
+}
+
+td {
+    padding: 10px;
+    font-size: 16px;
+    color: #0063B1;
+    background-color: #FFA500;
+    border-bottom: 1px solid #0063B1;
+}
+
+td.rank {
+    border: 2px solid #FFA500;
+}
+
+td.score {
+    border: 2px solid #FFA500;
+}
+
+p.footer {
+    font-size: 16px;
+    color: #FFA500;
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+        padding: 8px;
+        margin: 5px 0;
+    }
+
+    th {
+        font-size: 16px;
+    }
+
+    td {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
